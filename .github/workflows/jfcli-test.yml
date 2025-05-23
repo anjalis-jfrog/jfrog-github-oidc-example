@@ -9,8 +9,8 @@ jobs:
   build:
     runs-on: self-hosted
     env:
-      OIDC_AUDIENCE: 'jfrog-github'
-      OIDC_PROVIDER: 'github'
+      #OIDC_AUDIENCE: 'jfrog-github'
+      OIDC_PROVIDER: 'github-oidc-354009'
       PLATFORM_REPO: 'eks-npm'
     defaults:
       run:
